@@ -25,4 +25,8 @@ path = "src/drop_trait.rs"
 name = "day3_default_trait"
 path = "src/default_trait.rs"
 
+[[bin]]
+name = "day3_operator_overloading"
+path = "src/operator_overloading.rs"
+
 [dependencies]
