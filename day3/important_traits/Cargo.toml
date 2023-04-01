@@ -17,4 +17,8 @@ path = "src/from_iterator.rs"
 name = "day3_read_and_write"
 path = "src/read_and_write.rs"
 
+[[bin]]
+name = "day3_drop_trait"
+path = "src/drop_trait.rs"
+
 [dependencies]
