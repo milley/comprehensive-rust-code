@@ -14,7 +14,11 @@ name = "day3_deriving_traits"
 path = "src/deriving_traits.rs"
 
 [[bin]]
-name = "default_methods"
+name = "day3_default_methods"
 path = "src/default_methods.rs"
+
+[[bin]]
+name = "day3_trait_bounds"
+path = "src/trait_bounds.rs"
 
 [dependencies]
