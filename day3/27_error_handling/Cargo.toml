@@ -13,4 +13,26 @@ path = "src/panics.rs"
 name = "day3_structure_error"
 path = "src/structure_error.rs"
 
+[[bin]]
+name = "day3_propagating_errors"
+path = "src/propagating_errors.rs"
+
+[[bin]]
+name = "day3_converting_error"
+path = "src/converting_error.rs"
+
+[[bin]]
+name = "day3_deriving_error"
+path = "src/deriving_error.rs"
+
+[[bin]]
+name = "day3_dynamic_error"
+path = "src/dynamic_error.rs"
+
+[[bin]]
+name = "day3_context_error"
+path = "src/context_error.rs"
+
 [dependencies]
+anyhow = "1.0.70"
+thiserror = "1.0.40"
