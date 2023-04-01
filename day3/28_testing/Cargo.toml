@@ -1,0 +1,20 @@
+[package]
+name = "testing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day3_unit_test"
+path = "src/unit_test.rs"
+
+[[bin]]
+name = "day3_test_modules"
+path = "src/test_modules.rs"
+
+[[bin]]
+name = "day3_doc_test"
+path = "src/doc_test.rs"
+
+[dependencies]
