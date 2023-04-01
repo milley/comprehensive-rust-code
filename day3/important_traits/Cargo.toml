@@ -21,4 +21,8 @@ path = "src/read_and_write.rs"
 name = "day3_drop_trait"
 path = "src/drop_trait.rs"
 
+[[bin]]
+name = "day3_default_trait"
+path = "src/default_trait.rs"
+
 [dependencies]
