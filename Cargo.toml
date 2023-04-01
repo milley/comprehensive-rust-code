@@ -4,4 +4,5 @@ members = [
     "day3/24_traits",
     "day3/25_important_traits",
     "day3/26_exercise",
+    "day3/27_error_handling",
 ]
