@@ -13,4 +13,8 @@ path = "src/iterator.rs"
 name = "day3_from_iterator"
 path = "src/from_iterator.rs"
 
+[[bin]]
+name = "day3_read_and_write"
+path = "src/read_and_write.rs"
+
 [dependencies]
