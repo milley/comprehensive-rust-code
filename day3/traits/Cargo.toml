@@ -9,4 +9,8 @@ edition = "2021"
 name = "day3_trait_objects"
 path= "src/trait_objects.rs"
 
+[[bin]]
+name = "day3_deriving_traits"
+path = "src/deriving_traits.rs"
+
 [dependencies]
