@@ -13,4 +13,8 @@ path= "src/trait_objects.rs"
 name = "day3_deriving_traits"
 path = "src/deriving_traits.rs"
 
+[[bin]]
+name = "default_methods"
+path = "src/default_methods.rs"
+
 [dependencies]
