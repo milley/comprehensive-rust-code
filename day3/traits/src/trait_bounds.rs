@@ -14,6 +14,12 @@ fn add_42_millons(x: impl Into<i32>) -> i32 {
     x.into() + 42_000_000
 }
 
+use std::fmt::Display;
+
+fn get_x(name: impl Display) -> impl Display {
+    format!("Hello {name}")
+}
+
 fn main() {
     let foo = String::from("foo");
     let pair = duplicate(foo);
@@ -23,4 +29,7 @@ fn main() {
     println!("{many}");
     let many_more = add_42_millons(10_000_000);
     println!("{many_more}");
+
+    let x = get_x("foo");
+    println!("{x}");
 }
