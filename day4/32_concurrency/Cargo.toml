@@ -17,4 +17,8 @@ path = "src/scoped_thread.rs"
 name = "day4_channels"
 path = "src/channels.rs"
 
+[[bin]]
+name = "day4_unbounded_channels"
+path = "src/unbounded_channels.rs"
+
 [dependencies]
