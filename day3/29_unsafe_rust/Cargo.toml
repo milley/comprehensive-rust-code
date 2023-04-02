@@ -17,4 +17,8 @@ path = "src/mutable_static_variables.rs"
 name = "day3_unions"
 path = "src/unions.rs"
 
+[[bin]]
+name = "day3_unsafe_func"
+path = "src/unsafe_func.rs"
+
 [dependencies]
