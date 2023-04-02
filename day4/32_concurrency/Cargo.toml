@@ -9,4 +9,9 @@ edition = "2021"
 name = "day4_threads"
 path= "src/threads.rs"
 
+
+[[bin]]
+name = "day4_scoped_thread"
+path = "src/scoped_thread.rs"
+
 [dependencies]
