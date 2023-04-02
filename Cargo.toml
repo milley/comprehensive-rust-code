@@ -8,4 +8,5 @@ members = [
     "day3/28_testing",
     "day3/29_unsafe_rust",
     "day3/30_exercise",
+    "day4/32_concurrency",
 ]
