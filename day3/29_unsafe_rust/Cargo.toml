@@ -13,4 +13,8 @@ path = "src/deref_raw_pointers.rs"
 name = "day3_mutable_static_variables"
 path = "src/mutable_static_variables.rs"
 
+[[bin]]
+name = "day3_unions"
+path = "src/unions.rs"
+
 [dependencies]
