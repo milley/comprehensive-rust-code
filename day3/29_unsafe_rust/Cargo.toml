@@ -9,4 +9,8 @@ edition = "2021"
 name = "day3_deref_raw_pointers"
 path = "src/deref_raw_pointers.rs"
 
+[[bin]]
+name = "day3_mutable_static_variables"
+path = "src/mutable_static_variables.rs"
+
 [dependencies]
