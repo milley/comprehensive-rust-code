@@ -33,4 +33,8 @@ path = "src/arc.rs"
 name = "day4_mutex"
 path = "src/mutex.rs"
 
+[[bin]]
+name = "day4_arc_and_mutex"
+path = "src/arc_and_mutex.rs"
+
 [dependencies]
