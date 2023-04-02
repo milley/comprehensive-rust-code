@@ -6,4 +6,5 @@ members = [
     "day3/26_exercise",
     "day3/27_error_handling",
     "day3/28_testing",
+    "day3/29_unsafe_rust",
 ]
