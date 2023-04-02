@@ -29,4 +29,8 @@ path = "src/bounded_channels.rs"
 name = "day4_arc"
 path = "src/arc.rs"
 
+[[bin]]
+name = "day4_mutex"
+path = "src/mutex.rs"
+
 [dependencies]
