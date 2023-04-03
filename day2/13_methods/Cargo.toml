@@ -1,0 +1,16 @@
+[package]
+name = "methods"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day2_methods"
+path = "src/methods.rs"
+
+[[bin]]
+name = "day2_race_methods"
+path = "src/race_methods.rs"
+
+[dependencies]

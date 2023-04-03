@@ -1,0 +1,20 @@
+[package]
+name = "exercises07"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day1_conversions"
+path = "src/conversions.rs"
+
+[[bin]]
+name = "day1_transpose_matrix"
+path = "src/transpose_matrix.rs"
+
+[[bin]]
+name = "day1_bonus_question"
+path = "src/bonus_question.rs"
+
+[dependencies]

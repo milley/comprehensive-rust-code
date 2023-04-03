@@ -1,0 +1,40 @@
+[package]
+name = "basic_syntax"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day1_collatz_conjecture"
+path = "src/collatz_conjecture.rs"
+
+[[bin]]
+name = "day1_compound_types"
+path = "src/compound_types.rs"
+
+[[bin]]
+name = "day1_reference"
+path = "src/reference.rs"
+
+# [[bin]]
+# name = "day1_dangling_reference"
+# path = "src/dangling_reference.rs"
+
+[[bin]]
+name = "day1_slice"
+path = "src/slice.rs"
+
+[[bin]]
+name = "day1_string_vs_str"
+path = "src/string_vs_str.rs"
+
+[[bin]]
+name = "day1_fizzbuzz"
+path = "src/fizzbuzz.rs"
+
+[[bin]]
+name = "day1_methods"
+path = "src/methods.rs"
+
+[dependencies]

@@ -1,0 +1,16 @@
+[package]
+name = "variables"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day1_static_const_var"
+path = "src/static_const_var.rs"
+
+[[bin]]
+name = "day1_scope"
+path = "src/scope.rs"
+
+[dependencies]

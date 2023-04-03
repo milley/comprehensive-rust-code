@@ -1,0 +1,16 @@
+[package]
+name = "generics"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day3_generics_data"
+path = "src/generics_data.rs"
+
+[[bin]]
+name = "day3_generics_method"
+path = "src/generics_method.rs"
+
+[dependencies]

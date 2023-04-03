@@ -1,0 +1,25 @@
+[package]
+name = "structs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day2_structs"
+path = "src/structs.rs"
+
+[[bin]]
+name = "day2_enum_random"
+path = "src/enum_random.rs"
+
+[[bin]]
+name = "day2_variant_payloads"
+path = "src/variant_payloads.rs"
+
+[[bin]]
+name = "day2_enum_size"
+path = "src/enum_size.rs"
+
+[dependencies]
+rand = "0.8.5"

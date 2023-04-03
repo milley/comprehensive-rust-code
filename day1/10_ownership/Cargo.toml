@@ -1,0 +1,36 @@
+[package]
+name = "ownership"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day1_move_semantics"
+path = "src/move_semantics.rs"
+
+[[bin]]
+name = "day1_copy_clone"
+path = "src/copy_clone.rs"
+
+[[bin]]
+name = "day1_borrow"
+path = "src/borrow.rs"
+
+[[bin]]
+name = "day1_shared_unique_borrow"
+path = "src/shared_unique_borrow.rs"
+
+[[bin]]
+name = "day1_lifetime_func"
+path = "src/lifetime_func.rs"
+
+# [[bin]]
+# name = "day1_lifetime_func2"
+# path = "src/lifetime_func2.rs"
+
+[[bin]]
+name = "day1_lifetime_data"
+path = "src/lifetime_data.rs"
+
+[dependencies]

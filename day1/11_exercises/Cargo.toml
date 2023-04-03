@@ -1,0 +1,16 @@
+[package]
+name = "exercises11"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day1_library"
+path = "src/library.rs"
+
+[[bin]]
+name = "day1_iter_ownership"
+path = "src/iter_ownership.rs"
+
+[dependencies]

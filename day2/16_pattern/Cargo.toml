@@ -1,0 +1,21 @@
+[package]
+name = "pattern"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day2_match_like_switch"
+path = "src/match_like_switch.rs"
+
+[[bin]]
+name = "day2_destructuring_enums"
+path = "src/destructuring_enums.rs"
+
+[[bin]]
+name = "day2_destructuring_structs"
+path = "src/destructuring_structs.rs"
+
+
+[dependencies]

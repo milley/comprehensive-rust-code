@@ -1,0 +1,16 @@
+[package]
+name = "exercises17"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "day2_health"
+path = "src/health.rs"
+
+[[bin]]
+name = "day2_polygon"
+path = "src/polygon.rs"
+
+[dependencies]
